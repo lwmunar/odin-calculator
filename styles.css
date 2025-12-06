@@ -1,0 +1,92 @@
+html {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #004797;
+    border: #002C7C solid 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 170px;
+}
+
+.display{
+    background-color: hsl(0, 0%, 70%);
+    border: #002C7C solid 5px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 5px;
+    word-wrap: break-word;
+    margin: 10px;
+    max-inline-size: 200px;
+    font-size: 20px;
+}
+
+.calcBody {
+    display: flex;
+    border: #002C7C solid 5px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.numrow1,
+.numrow2,
+.numrow3 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 3px;
+}
+
+.oprow1,
+.oprow2,
+.oprow3,
+.numrow4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.calc-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.operation,
+.remove {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.operation{
+    flex-direction: column;
+}
+
+button {
+    background-color: #0064B2;
+    min-height: 30px;
+    /* min-width: fit-content; */
+    flex: 1;
+    border-radius: 7px;
+    border-color: hsl(0, 0%, 30%);
+}
